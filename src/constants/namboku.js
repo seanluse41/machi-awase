@@ -199,7 +199,7 @@ let nambokuLine = [
                 type: 'train',
                 line: 'sobu',
                 name: 'Iidabashi',
-                id: 0
+                id: 16
             },
             {
                 type: 'metro',

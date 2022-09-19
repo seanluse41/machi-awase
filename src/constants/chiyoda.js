@@ -161,7 +161,7 @@ let chiyodaLine = [
         id: 11,
         type: 'metro',
         line: 'chiyoda',
-        transfer: false,
+        transfer: true,
         transferInfo: [
             {
                 type: 'metro',

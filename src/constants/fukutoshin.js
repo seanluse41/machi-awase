@@ -74,13 +74,13 @@ let fukutoshinLine = [
                 type: 'jr',
                 line: 'yamanote',
                 name: 'Ikebukuro',
-                id: 0
+                id: 13
             },
             {
                 type: 'jr',
                 line: 'saikyo',
                 name: 'Ikebukuro',
-                id: 0
+                id: 12
             },
             {
                 type: 'metro',

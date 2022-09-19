@@ -147,6 +147,12 @@ let nambokuLine = [
                 id: 0
             },
             {
+                type: 'jr',
+                line: 'chuo',
+                name: 'Yotsuya',
+                id: 4
+            },
+            {
                 type: 'metro',
                 line: 'marunouchi',
                 name: 'Yotsuya',

@@ -29,7 +29,7 @@ let chiyodaLine = [
                 id: 15
             },
             {
-                type: 'jr',
+                type: 'train',
                 line: 'yamanote',
                 name: 'Harajuku',
                 id: 0
@@ -242,13 +242,13 @@ let chiyodaLine = [
         transfer: true,
         transferInfo: [
             {
-                type: 'jr',
+                type: 'train',
                 line: 'yamanote',
                 name: 'Nishi-nippori',
                 id: 0
             },
             {
-                type: 'jr',
+                type: 'train',
                 line: 'keihin-tohoku',
                 name: 'Nishi-nippori',
                 id: 0
@@ -271,7 +271,7 @@ let chiyodaLine = [
         transfer: true,
         transferInfo: [
             {
-                type: 'jr',
+                type: 'train',
                 line: 'joban',
                 name: 'Kita-senju',
                 id: 0

@@ -7,7 +7,7 @@ let hanzomonLine = [
         transfer: true,
         transferInfo: [
             {
-                type: 'jr',
+                type: 'train',
                 line: 'yamanote',
                 name: 'Shibuya',
                 id: 0
@@ -25,13 +25,13 @@ let hanzomonLine = [
                 id: 16
             },
             {
-                type: 'jr',
+                type: 'train',
                 line: 'saikyo',
                 name: 'Shibuya',
                 id: 0
             },
             {
-                type: 'jr',
+                type: 'train',
                 line: 'den-en-toshi',
                 name: 'Shibuya',
                 id: 0
@@ -204,7 +204,7 @@ let hanzomonLine = [
         transfer: true,
         transferInfo: [
             {
-                type: 'jr',
+                type: 'train',
                 line: 'sobu',
                 name: 'Shin-nihombashi',
                 id: 0
@@ -263,7 +263,7 @@ let hanzomonLine = [
         transfer: true,
         transferInfo: [
             {
-                type: 'jr',
+                type: 'train',
                 line: 'sobu',
                 name: 'Kinshicho',
                 id: 0

@@ -7,7 +7,7 @@ let nambokuLine = [
         transfer: true,
         transferInfo: [
             {
-                type: 'jr',
+                type: 'train',
                 line: 'yamanote',
                 name: 'Meguro',
                 id: 1
@@ -141,13 +141,13 @@ let nambokuLine = [
         transfer: true,
         transferInfo: [
             {
-                type: 'jr',
+                type: 'train',
                 line: 'sobu',
                 name: 'Yotsuya',
                 id: 0
             },
             {
-                type: 'jr',
+                type: 'train',
                 line: 'chuo',
                 name: 'Yotsuya',
                 id: 4
@@ -168,10 +168,10 @@ let nambokuLine = [
         transfer: true,
         transferInfo: [
             {
-                type: 'jr',
+                type: 'train',
                 line: 'sobu',
                 name: 'Ichigaya',
-                id: 0
+                id: 15
             },
             {
                 type: 'metro',
@@ -196,7 +196,7 @@ let nambokuLine = [
         transfer: true,
         transferInfo: [
             {
-                type: 'jr',
+                type: 'train',
                 line: 'sobu',
                 name: 'Iidabashi',
                 id: 0
@@ -272,7 +272,7 @@ let nambokuLine = [
         transfer: true,
         transferInfo: [
             {
-                type: 'jr',
+                type: 'train',
                 line: 'yamanote',
                 name: 'Komagome'
             }
@@ -293,7 +293,7 @@ let nambokuLine = [
         transfer: true,
         transferInfo: [
             {
-                type: 'jr',
+                type: 'train',
                 line: 'keihin-tohoku',
                 name: 'Oji'
             }

@@ -71,13 +71,13 @@ let fukutoshinLine = [
         transfer: true,
         transferInfo: [
             {
-                type: 'jr',
+                type: 'train',
                 line: 'yamanote',
                 name: 'Ikebukuro',
                 id: 13
             },
             {
-                type: 'jr',
+                type: 'train',
                 line: 'saikyo',
                 name: 'Ikebukuro',
                 id: 12
@@ -170,7 +170,7 @@ let fukutoshinLine = [
                 id: 3
             },
             {
-                type: 'jr',
+                type: 'train',
                 line: 'yamanote',
                 name: 'Harajuku',
                 id: 0
@@ -185,7 +185,7 @@ let fukutoshinLine = [
         transfer: true,
         transferInfo: [
             {
-                type: 'jr',
+                type: 'train',
                 line: 'yamanote',
                 name: 'Shibuya',
                 id: 0
@@ -203,13 +203,13 @@ let fukutoshinLine = [
                 id: 1
             },
             {
-                type: 'jr',
+                type: 'train',
                 line: 'saikyo',
                 name: 'Shibuya',
                 id: 0
             },
             {
-                type: 'jr',
+                type: 'train',
                 line: 'den-en-toshi',
                 name: 'Shibuya',
                 id: 0

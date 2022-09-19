@@ -7,7 +7,7 @@ let ginzaLine = [
         transfer: true,
         transferInfo: [
             {
-                type: 'jr',
+                type: 'train',
                 line: 'yamanote',
                 name: 'Shibuya',
                 id: 0
@@ -25,13 +25,13 @@ let ginzaLine = [
                 id: 16
             },
             {
-                type: 'jr',
+                type: 'train',
                 line: 'saikyo',
                 name: 'Shibuya',
                 id: 0
             },
             {
-                type: 'jr',
+                type: 'train',
                 line: 'den-en-toshi',
                 name: 'Shibuya',
                 id: 0
@@ -171,13 +171,13 @@ let ginzaLine = [
         transfer: true,
         transferInfo: [
             {
-                type: 'jr',
+                type: 'train',
                 line: 'yamanote',
                 name: 'Shimbashi',
                 id: 0
             },
             {
-                type: 'jr',
+                type: 'train',
                 line: 'keihin-tohoku',
                 name: 'Shimbashi',
                 id: 0
@@ -254,7 +254,7 @@ let ginzaLine = [
         transfer: true,
         transferInfo: [
             {
-                type: 'jr',
+                type: 'train',
                 line: 'sobu',
                 name: 'Shin-nihombashi',
                 id: 0
@@ -275,19 +275,19 @@ let ginzaLine = [
         transfer: true,
         transferInfo: [
             {
-                type: 'jr',
+                type: 'train',
                 line: 'yamanote',
                 name: 'Kanda',
                 id: 0
             },
             {
-                type: 'jr',
+                type: 'train',
                 line: 'keihin-tohoku',
                 name: 'Kanda',
                 id: 0
             },
             {
-                type: 'jr',
+                type: 'train',
                 line: 'chuo',
                 name: 'Kanda',
                 id: 0
@@ -331,13 +331,13 @@ let ginzaLine = [
         transfer: true,
         transferInfo: [
             {
-                type: 'jr',
+                type: 'train',
                 line: 'yamanote',
                 name: 'Ueno',
                 id: 0
             },
             {
-                type: 'jr',
+                type: 'train',
                 line: 'keihin-tohoku',
                 name: 'Ueno',
                 id: 0

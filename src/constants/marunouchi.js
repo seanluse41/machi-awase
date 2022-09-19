@@ -7,7 +7,7 @@ let marunouchiLine = [
         transfer: true,
         transferInfo: [
             {
-                type: 'jr',
+                type: 'train',
                 line: 'chuo',
                 name: 'Ogikubo',
                 id: 0
@@ -77,7 +77,7 @@ let marunouchiLine = [
         transfer: true,
         transferInfo: [
             {
-                type: 'jr',
+                type: 'train',
                 line: 'sobu',
                 name: 'Shinjuku',
                 id: 10
@@ -95,19 +95,19 @@ let marunouchiLine = [
                 id: 1
             },
             {
-                type: 'jr',
+                type: 'train',
                 line: 'yamanote',
                 name: 'Shinjuku',
                 id: 17
             },
             {
-                type: 'jr',
+                type: 'train',
                 line: 'saikyo',
                 name: 'Shinjuku',
                 id: 12
             },
             {
-                type: 'jr',
+                type: 'train',
                 line: 'chuo',
                 name: 'Shinjuku',
                 id: 5
@@ -159,13 +159,13 @@ let marunouchiLine = [
         transfer: true,
         transferInfo: [
             {
-                type: 'jr',
+                type: 'train',
                 line: 'sobu',
                 name: 'Yotsuya',
                 id: 14
             },
             {
-                type: 'jr',
+                type: 'train',
                 line: 'chuo',
                 name: 'Yotsuya',
                 id: 4
@@ -294,25 +294,25 @@ let marunouchiLine = [
         transfer: true,
         transferInfo: [
             {
-                type: 'jr',
+                type: 'train',
                 line: 'yamanote',
                 name: 'Tokyo',
                 id: 1
             },
             {
-                type: 'jr',
+                type: 'train',
                 line: 'keihin-tohoku',
                 name: 'Tokyo',
                 id: 26
             },
             {
-                type: 'jr',
+                type: 'train',
                 line: 'chuo',
                 name: 'Tokyo',
                 id: 1
             },
             {
-                type: 'jr',
+                type: 'train',
                 line: 'sobu-kaisoku',
                 name: 'Tokyo',
                 id: 19
@@ -381,13 +381,13 @@ let marunouchiLine = [
         transfer: true,
         transferInfo: [
             {
-                type: 'jr',
+                type: 'train',
                 line: 'chuo',
                 name: 'Ochanomizu',
                 id: 3
             },
             {
-                type: 'jr',
+                type: 'train',
                 line: 'sobu',
                 name: 'Ochanomizu',
                 id: 18
@@ -460,13 +460,13 @@ let marunouchiLine = [
         transfer: true,
         transferInfo: [
             {
-                type: 'jr',
+                type: 'train',
                 line: 'yamanote',
                 name: 'Ikebukuro',
                 id: 13
             },
             {
-                type: 'jr',
+                type: 'train',
                 line: 'saikyo',
                 name: 'Ikebukuro',
                 id: 12

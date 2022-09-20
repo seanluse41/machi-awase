@@ -10,7 +10,7 @@ let nambokuLine = [
                 type: 'train',
                 line: 'yamanote',
                 name: 'Meguro',
-                id: 1
+                id: 22
             },
             {
                 type: 'metro',
@@ -274,7 +274,8 @@ let nambokuLine = [
             {
                 type: 'train',
                 line: 'yamanote',
-                name: 'Komagome'
+                name: 'Komagome',
+                id: 10
             }
         ]
     }, {
@@ -295,7 +296,8 @@ let nambokuLine = [
             {
                 type: 'train',
                 line: 'keihin-tohoku',
-                name: 'Oji'
+                name: 'Oji',
+                id: 36
             }
         ]
     }, {

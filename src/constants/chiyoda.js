@@ -143,9 +143,21 @@ let chiyodaLine = [
             {
                 type: 'metro',
                 line: 'mita',
-                name: 'Ikebukuro',
+                name: 'Hibiya',
                 id: 8
             },
+            {
+                type: 'train',
+                line: 'yamanote',
+                name: 'Hibiya',
+                id: 30
+            },
+            {
+                type: 'train',
+                line: 'keihin-tohoku',
+                name: 'Hibiya',
+                id: 25
+            }
         ]
     },
     {

@@ -174,13 +174,13 @@ let ginzaLine = [
                 type: 'train',
                 line: 'yamanote',
                 name: 'Shimbashi',
-                id: 0
+                id: 29
             },
             {
                 type: 'train',
                 line: 'keihin-tohoku',
                 name: 'Shimbashi',
-                id: 0
+                id: 24
             },
             {
                 type: 'metro',
@@ -236,12 +236,12 @@ let ginzaLine = [
                 type: 'metro',
                 line: 'tozai',
                 name: 'Nihombashi',
-                id: 1
+                id: 10
             },
             {
                 type: 'metro',
                 line: 'asakusa',
-                name: 'Meguro',
+                name: 'Nihombashi',
                 id: 13
             }
         ]
@@ -255,9 +255,9 @@ let ginzaLine = [
         transferInfo: [
             {
                 type: 'train',
-                line: 'sobu',
+                line: 'sobu-kaisoku',
                 name: 'Shin-nihombashi',
-                id: 0
+                id: 20
             },
             {
                 type: 'metro',

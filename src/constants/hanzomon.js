@@ -222,8 +222,21 @@ let hanzomonLine = [
         id: 10,
         type: 'metro',
         line: 'hanzomon',
-        transfer: false,
-        transferInfo: []
+        transfer: true,
+        transferInfo: [
+            {
+                type: 'metro',
+                line: 'hibiya',
+                name: 'Ningyocho',
+                id: 14
+            },
+            {
+                type: 'metro',
+                line: 'asakusa',
+                name: 'Ningyocho',
+                id: 14
+            }
+        ]
     },
     {
         name: 'Kiyosumi-shirakawa',

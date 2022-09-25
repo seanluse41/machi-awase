@@ -334,13 +334,13 @@ let ginzaLine = [
                 type: 'train',
                 line: 'yamanote',
                 name: 'Ueno',
-                id: 0
+                id: 5
             },
             {
                 type: 'train',
                 line: 'keihin-tohoku',
                 name: 'Ueno',
-                id: 0
+                id: 30
             },
             {
                 type: 'metro',

@@ -283,12 +283,6 @@ let chiyodaLine = [
         transfer: true,
         transferInfo: [
             {
-                type: 'train',
-                line: 'joban',
-                name: 'Kita-senju',
-                id: 0
-            },
-            {
                 type: 'metro',
                 line: 'hibiya',
                 name: 'Kita-senju',

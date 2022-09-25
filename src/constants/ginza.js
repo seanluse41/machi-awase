@@ -10,7 +10,7 @@ let ginzaLine = [
                 type: 'train',
                 line: 'yamanote',
                 name: 'Shibuya',
-                id: 0
+                id: 20
             },
             {
                 type: 'metro',
@@ -28,13 +28,13 @@ let ginzaLine = [
                 type: 'train',
                 line: 'saikyo',
                 name: 'Shibuya',
-                id: 0
+                id: 10
             },
             {
                 type: 'train',
                 line: 'den-en-toshi',
                 name: 'Shibuya',
-                id: 0
+                id: 1
             },
         ]
     },

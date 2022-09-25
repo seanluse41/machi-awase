@@ -10,7 +10,7 @@ let hanzomonLine = [
                 type: 'train',
                 line: 'yamanote',
                 name: 'Shibuya',
-                id: 0
+                id: 20
             },
             {
                 type: 'metro',
@@ -28,13 +28,13 @@ let hanzomonLine = [
                 type: 'train',
                 line: 'saikyo',
                 name: 'Shibuya',
-                id: 0
+                id: 10
             },
             {
                 type: 'train',
                 line: 'den-en-toshi',
                 name: 'Shibuya',
-                id: 0
+                id: 1
             },
         ]
     },
@@ -132,13 +132,13 @@ let hanzomonLine = [
                 type: 'metro',
                 line: 'tozai',
                 name: 'Kudashita',
-                id: 5
+                id: 7
             },
             {
                 type: 'metro',
                 line: 'shinjuku',
                 name: 'Kudanshita',
-                id: 6
+                id: 5
             }
         ]
     },

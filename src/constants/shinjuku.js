@@ -112,7 +112,7 @@ let shinjukuLine = [
                 type: 'metro',
                 line: 'tozai',
                 name: 'Kudashita',
-                id: 5
+                id: 7
             },
             {
                 type: 'metro',

@@ -4,64 +4,120 @@ let fukutoshinLine = [
         id: 1,
         type: 'metro',
         line: 'fukutoshin',
-        transfer: false,
-        transferInfo: []
+        transfer: true,
+        transferInfo: [
+            {
+                type: 'metro',
+                line: 'yurakucho',
+                name: 'Wakoshi',
+                id: 1
+            }
+        ]
     },
     {
         name: 'Chikatetsu-narimasu',
         id: 2,
         type: 'metro',
         line: 'fukutoshin',
-        transfer: false,
-        transferInfo: []
+        transfer: true,
+        transferInfo: [
+            {
+                type: 'metro',
+                line: 'yurakucho',
+                name: 'Chikatestu-narimasu',
+                id: 2
+            }
+        ]
     },
     {
         name: 'Chikatetsu-akatsuka',
         id: 3,
         type: 'metro',
         line: 'fukutoshin',
-        transfer: false,
-        transferInfo: []
+        transfer: true,
+        transferInfo: [
+            {
+                type: 'metro',
+                line: 'yurakucho',
+                name: 'Chikatestu-narimasu',
+                id: 3
+            }
+        ]
     },
     {
         name: 'Heiwadai',
         id: 4,
         type: 'metro',
         line: 'fukutoshin',
-        transfer: false,
-        transferInfo: []
+        transfer: true,
+        transferInfo: [
+            {
+                type: 'metro',
+                line: 'yurakucho',
+                name: 'Heiwadai',
+                id: 4
+            }
+        ]
     },
     {
         name: 'Hikawadai',
         id: 5,
         type: 'metro',
         line: 'fukutoshin',
-        transfer: false,
-        transferInfo: []
+        transfer: true,
+        transferInfo: [
+            {
+                type: 'metro',
+                line: 'yurakucho',
+                name: 'Hikawadai',
+                id: 5
+            }
+        ]
     },
     {
         name: 'Kotake-mukaihara',
         id: 6,
         type: 'metro',
         line: 'fukutoshin',
-        transfer: false,
-        transferInfo: []
+        transfer: true,
+        transferInfo: [
+            {
+                type: 'metro',
+                line: 'yurakucho',
+                name: 'Kotake-mukaihara',
+                id: 6
+            }
+        ]
     },
     {
         name: 'Senkawa',
         id: 7,
         type: 'metro',
         line: 'fukutoshin',
-        transfer: false,
-        transferInfo: []
+        transfer: true,
+        transferInfo: [
+            {
+                type: 'metro',
+                line: 'yurakucho',
+                name: 'Senkawa',
+                id: 7
+            }
+        ]
     },
     {
         name: 'Kanamecho',
         id: 8,
         type: 'metro',
         line: 'fukutoshin',
-        transfer: false,
-        transferInfo: []
+        transfer: true,
+        transferInfo: [
+            {
+                type: 'metro',
+                line: 'yurakucho',
+                name: 'Kanamecho',
+                id: 8
+            }
+        ]
     },
     {
         name: 'Ikebukuro',

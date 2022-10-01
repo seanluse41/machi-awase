@@ -18,18 +18,55 @@ import { yurakuchoLine } from '../../constants/yurakucho';
 /** @type {import('./$types').RequestHandler} */
 export async function POST(requestData) {
 
-  const targetTrainLine = await requestData.request.json();
+  const requestLine = await requestData.request.json();
+  let responseLine;
 
-  console.log(targetTrainLine.targetLine)
-
-
-  let allLines = [];
-  allLines.push(asakusaLine, chiyodaLine, fukutoshinLine, ginzaLine, hanzomonLine, hibiyaLine, marunouchiLine, mitaLine, nambokuLine, oedoLine, shinjukuLine, tozaiLine, yurakuchoLine)
-
-  if (targetTrainLine == "") {
-    throw error(400, 'You sent an empty string. Please send the train line name.');
+  switch (requestLine.targetLine) {
+    case "asakusa":
+      responseLine = asakusaLine
+      break;
+    case "chiyoda":
+      responseLine = chiyodaLine
+      break;
+    case "fukutoshin":
+      responseLine = fukutoshinLine
+      break;
+    case "ginza":
+      responseLine = ginzaLine
+      break;
+    case "hanzomon":
+      responseLine = hanzomonLine
+      break;
+    case "hibiya":
+      responseLine = hibiyaLine
+      break;
+    case "marunouchi":
+      responseLine = marunouchiLine
+      break;
+    case "mita":
+      responseLine = mitaLine
+      break;
+    case "namboku":
+      responseLine = nambokuLine
+      break;
+    case "oedo":
+      responseLine = oedoLine
+      break;
+    case "shinjuku":
+      responseLine = shinjukuLine
+      break;
+    case "tozai":
+      responseLine = tozaiLine
+      break;
+    case "yurakucho":
+      responseLine = yurakuchoLine
+      break;
+    default:
+      responseLine = {
+        response: "Invalid Line"
+      }
+      break;
   }
 
-
-  return json(allLines);
+  return json(responseLine);
 }

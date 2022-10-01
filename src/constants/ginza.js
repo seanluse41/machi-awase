@@ -1,4 +1,4 @@
-let ginzaLine = [
+export let ginzaLine = [
     {
         name: 'Shibuya',
         id: 1,

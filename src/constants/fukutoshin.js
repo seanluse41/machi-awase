@@ -1,4 +1,4 @@
-let fukutoshinLine = [
+export let fukutoshinLine = [
     {
         name: 'Wakoshi',
         id: 1,

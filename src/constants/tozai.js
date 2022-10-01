@@ -1,4 +1,4 @@
-let tozaiLine = [
+export let tozaiLine = [
     {
         name: 'Nakano',
         id: 1,

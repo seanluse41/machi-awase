@@ -1,4 +1,4 @@
-let asakusaLine = [
+export let asakusaLine = [
     {
         name: 'Nishi-magome',
         id: 1,

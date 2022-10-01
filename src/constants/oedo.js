@@ -1,4 +1,4 @@
-let oedoLine = [
+export let oedoLine = [
     {
         name: 'Shinjuku-nishiguchi',
         id: 1,

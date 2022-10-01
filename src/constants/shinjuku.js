@@ -1,4 +1,4 @@
-let shinjukuLine = [
+export let shinjukuLine = [
     {
         name: 'Shinjuku',
         id: 1,

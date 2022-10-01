@@ -1,4 +1,4 @@
-let nambokuLine = [
+export let nambokuLine = [
     {
         name: 'Meguro',
         id: 1,

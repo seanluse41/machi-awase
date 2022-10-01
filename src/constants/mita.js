@@ -1,4 +1,4 @@
-let mitaLine = [
+export let mitaLine = [
     {
         name: 'Meguro',
         id: 1,

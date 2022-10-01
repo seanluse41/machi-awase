@@ -1,4 +1,4 @@
-let marunouchiLine = [
+export let marunouchiLine = [
     {
         name: 'Ogikubo',
         id: 1,

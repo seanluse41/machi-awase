@@ -1,21 +1,23 @@
 <script>
+	import StationDisplay from '../components/stationDisplay.svelte';
 	let targetLine;
 	let targetStation;
-	let lineInfo;
-	let stationInfo;
+	let lineInfo = [];
+	let stationInfo = [];
 
 	const getLine = async () => {
 		const response = await fetch('/line', {
 			method: 'POST',
 			credentials: 'same-origin',
 			headers: {
-				'Content-Type': 'application/json'
+				'Content-Type': 'application/json',
+				Accept: 'application/json'
 			},
 			body: JSON.stringify({
 				targetLine: targetLine
 			})
 		});
-		lineInfo = await response.text();
+		lineInfo = await response.json();
 	};
 
 	const getStation = async (targetStation) => {
@@ -23,14 +25,14 @@
 			method: 'POST',
 			credentials: 'same-origin',
 			headers: {
-				'Content-Type': 'application/json'
+				'Content-Type': 'application/json',
+				Accept: 'application/json'
 			},
 			body: JSON.stringify({
 				targetStation: targetStation
 			})
 		});
-		stationInfo = await response.text();
-		console.log(stationInfo);
+		stationInfo = await response.json();
 	};
 </script>
 
@@ -64,7 +66,9 @@
 				<option value="tozai">Tozai Line</option>
 				<option value="yurakucho">Yurakucho Line</option>
 			</select>
-			
+			{#each lineInfo as station}
+				<StationDisplay stationInfo={station} />
+			{/each}
 		</div>
 		<div class="right">
 			<h5>Which Station? (Romaji)</h5>

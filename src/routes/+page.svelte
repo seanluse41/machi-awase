@@ -64,7 +64,7 @@
 				<option value="tozai">Tozai Line</option>
 				<option value="yurakucho">Yurakucho Line</option>
 			</select>
-			<textarea bind:value={lineInfo} />
+			
 		</div>
 		<div class="right">
 			<h5>Which Station? (Romaji)</h5>

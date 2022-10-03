@@ -1,36 +1,34 @@
 import { error } from '@sveltejs/kit';
 import { json } from '@sveltejs/kit';
 
-import { asakusaLine } from '../../constants/asakusa';
-import { chiyodaLine } from '../../constants/chiyoda';
-import { fukutoshinLine } from '../../constants/fukutoshin';
-import { ginzaLine } from '../../constants/ginza';
-import { hanzomonLine } from '../../constants/hanzomon';
-import { hibiyaLine } from '../../constants/hibiya';
-import { marunouchiLine } from '../../constants/marunouchi';
-import { mitaLine } from '../../constants/mita';
-import { nambokuLine } from '../../constants/namboku';
-import { oedoLine } from '../../constants/oedo';
-import { shinjukuLine } from '../../constants/shinjuku';
-import { tozaiLine } from '../../constants/tozai';
-import { yurakuchoLine } from '../../constants/yurakucho';
+import { getAllMetroLines } from '../../constants/getAllMetroLines';
 
 
 /** @type {import('./$types').RequestHandler} */
 export async function POST(requestData) {
 
   const targetStation = await requestData.request.json();
+  let listOfLines = [];
+  let returnStationInfo = {};
 
-  console.log(targetStation.targetStation)
-
-
-  let allLines = [];
-  allLines.push(asakusaLine, chiyodaLine, fukutoshinLine, ginzaLine, hanzomonLine, hibiyaLine, marunouchiLine, mitaLine, nambokuLine, oedoLine, shinjukuLine, tozaiLine, yurakuchoLine)
-
-  if (targetStation == "") {
+  if (targetStation.requestStation == "") {
     throw error(400, 'You sent an empty string. Please send the train station name in romaji.');
   }
 
+  let allLines = getAllMetroLines();
+  allLines.forEach(lines => {
+    lines.stations.forEach(station => {
+      if (station.name.toLowerCase() === targetStation.requestStation.toLowerCase()) {
+        listOfLines.push(station.line);
+        returnStationInfo.name = station.name;
+      }
+    });
+  });
 
-  return json(allLines);
+  returnStationInfo.lines = listOfLines;
+
+  if (returnStationInfo == {}) {
+    throw error(400, 'Invalid Station');
+  }
+  return json(returnStationInfo);
 }

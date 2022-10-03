@@ -1,9 +1,9 @@
 <script>
 	import StationDisplay from '../components/stationDisplay.svelte';
 	let targetLine;
-	let targetStation;
+	let targetStation = "";
 	let lineInfo = [];
-	let stationInfo = [];
+	let stationInfo;
 
 	const getLine = async () => {
 		const response = await fetch('/line', {
@@ -17,10 +17,11 @@
 				targetLine: targetLine
 			})
 		});
-		lineInfo = await response.json();
+		let jsonResponse = await response.json();
+		lineInfo = jsonResponse.stations
 	};
 
-	const getStation = async (targetStation) => {
+	const getStation = async () => {
 		const response = await fetch('/station', {
 			method: 'POST',
 			credentials: 'same-origin',
@@ -29,10 +30,11 @@
 				Accept: 'application/json'
 			},
 			body: JSON.stringify({
-				targetStation: targetStation
+				requestStation: targetStation
 			})
 		});
 		stationInfo = await response.json();
+		console.log(stationInfo)
 	};
 </script>
 
@@ -72,8 +74,13 @@
 		</div>
 		<div class="right">
 			<h5>Which Station? (Romaji)</h5>
-			<input type="text" bind:value={targetStation} />
-			<textarea bind:value={stationInfo} />
+			<input type="text" bind:value={targetStation}/>
+			<div>
+				{#if stationInfo}
+				{stationInfo.name}
+				{stationInfo.lines}
+				{/if}
+			</div>
 		</div>
 		<div class="footer">Footer</div>
 	</div>
@@ -93,11 +100,6 @@
 		grid-area: left;
 		display: flex;
 		flex-direction: column;
-	}
-
-	textarea {
-		margin: 2%;
-		min-height: 400px;
 	}
 
 	.right {

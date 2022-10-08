@@ -1,6 +1,6 @@
 <script>
-	import { linePOSTRequestSample, stationPOSTRequestSample } from '../constants/codeSamples';
-	import Prism from 'svelte-prism';
+	import CodeExample from '../components/codeExample.svelte';
+	import TrainAnimation from '../components/trainAnimation.svelte';
 </script>
 
 <svelte:head>
@@ -17,18 +17,12 @@
 	<div class="grid-container">
 		<div class="header">
 			<h1>Tokyo Metro and Train API</h1>
-		</div>
-		<div class="left">
-			<h4>Sample LINE request</h4>
-			<div style="font-size: 0.4em;">
-				<Prism language="js" source={linePOSTRequestSample} />
+			<div class="train-animation-box">
+				<TrainAnimation />
 			</div>
 		</div>
-		<div class="right">
-			<h4>Sample STATION request</h4>
-			<div style="font-size: 0.4em;">
-				<Prism language="js" source={stationPOSTRequestSample} />
-			</div>
+		<div class="content">
+			<CodeExample />
 		</div>
 	</div>
 </div>
@@ -44,57 +38,53 @@
 		font-family: 'Noto Sans JP';
 		background: rgb(47, 2, 194);
 		background: linear-gradient(0deg, rgba(47, 2, 194, 1) 0%, rgba(238, 174, 202, 1) 100%);
-		height: 100vh;
-		max-width: 100vw;
+		height: auto;
+		width: fit-content;
+	}
+
+	.grid-container {
+		display: grid;
+		grid-template-areas:
+			'header'
+			'content'
+			'footer';
+		gap: 10px;
+	}
+
+	.grid-container > div {
+		text-align: center;
+		font-size: 35px;
 	}
 
 	.header {
 		grid-area: header;
 		display: flex;
-		justify-content: space-evenly;
-		margin-top: 3%;
+		justify-content: center;
+		flex-wrap: wrap;
+		align-items: flex-start;
+		margin-top: 2%;
 	}
 
-	.left {
-		grid-area: left;
-		display: inline-block;
-		flex-direction: column;
+	.train-animation-box {
+		width: 25%;
+		height: 25%;
 	}
 
-	.right {
-		grid-area: right;
+	.content {
+		grid-area: content;
 		display: flex;
-		flex-direction: column;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-evenly;
 	}
 
 	.footer {
 		grid-area: footer;
 	}
 
-	.grid-container {
-		display: grid;
-		grid-template-areas:
-			'header header header header'
-			'left left right right'
-			'footer footer footer footer';
-		gap: 10px;
-		padding: 10px;
-	}
-
-	.grid-container > div {
-		text-align: center;
-		padding: 10px 0;
-		font-size: 35px;
-	}
-
 	h1 {
 		margin: 3%;
 		padding: 3%;
 		color: #272822;
-	}
-
-	h4 {
-		margin: 0%;
-		color: cornsilk;
 	}
 </style>

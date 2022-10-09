@@ -1,6 +1,7 @@
 <script>
+	import GlobalNav from '../components/globalNav.svelte';
+	import Header from '../components/header.svelte';
 	import CodeExample from '../components/codeExample.svelte';
-	import TrainAnimation from '../components/trainAnimation.svelte';
 </script>
 
 <svelte:head>
@@ -14,13 +15,9 @@
 </svelte:head>
 
 <div class="main">
+	<GlobalNav />
 	<div class="grid-container">
-		<div class="header">
-			<h1>Tokyo Metro and Train API</h1>
-			<div class="train-animation-box">
-				<TrainAnimation />
-			</div>
-		</div>
+		<Header />
 		<div class="content">
 			<CodeExample />
 		</div>
@@ -56,20 +53,6 @@
 		font-size: 35px;
 	}
 
-	.header {
-		grid-area: header;
-		display: flex;
-		justify-content: center;
-		flex-wrap: wrap;
-		align-items: flex-start;
-		margin-top: 2%;
-	}
-
-	.train-animation-box {
-		width: 25%;
-		height: 25%;
-	}
-
 	.content {
 		grid-area: content;
 		display: flex;
@@ -80,11 +63,5 @@
 
 	.footer {
 		grid-area: footer;
-	}
-
-	h1 {
-		margin: 3%;
-		padding: 3%;
-		color: #272822;
 	}
 </style>

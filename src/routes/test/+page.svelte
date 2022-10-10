@@ -17,8 +17,8 @@
 				targetLine: targetLine
 			})
 		});
-		let jsonResponse = await response.json();
-		lineInfo = jsonResponse.stations
+		let lineInfo = await response.json();
+		console.log(lineInfo)
 	};
 
 	const getStation = async () => {

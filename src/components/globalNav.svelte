@@ -7,9 +7,9 @@
 	// List of navigation items
 	const navItems = [
 		{ label: 'logo', href: '#' },
-		{ label: 'About', href: '#' },
+		{ label: 'About', href: '/about' },
 		{ label: 'Get Token', href: '#' },
-		{ label: 'Github', href: '#' },
+		{ label: 'Github', href: 'https://github.com/seanluse41/machi-awase' },
 		{ label: '日本語', href: '#' },
 	];
 

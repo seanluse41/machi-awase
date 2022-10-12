@@ -2,6 +2,9 @@
 	import { linePOSTRequestSample, stationPOSTRequestSample, linePOSTResponseSample, stationPOSTResponseSample } from '../constants/codeSamples';
 	import Prism from 'svelte-prism';
 	let lineSampleToggle = true;
+	let test = () => {
+		console.log(lineSampleToggle)
+	}
 </script>
 
 {#if lineSampleToggle}
@@ -9,7 +12,7 @@
 		<div class="toggle-box">
 			<h3 style="color: #272822;">Sample LINE request</h3>
 			<label class="switch">
-				<input type="checkbox" bind:checked={lineSampleToggle} />
+				<input type="checkbox" bind:checked={lineSampleToggle} on:change={test}/>
 				<span class="slider round" />
 			</label>
 		</div>
@@ -30,7 +33,7 @@
 			</label>
 		</div>
 		<div class="code-and-text" style="font-size: 0.5em;">
-			<Prism language="json" source={linePOSTResponseSample} />
+			<Prism language="js" source={linePOSTResponseSample} style="height:300px"/>
 			<p style="color: #272822;">
 				... and get clean, organized JSON about a train line!
 			</p>

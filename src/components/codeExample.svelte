@@ -1,29 +1,17 @@
-<script context="module">
-	import { linePOSTRequestSample, stationPOSTRequestSample, linePOSTResponseSample, stationPOSTResponseSample } from '../constants/codeSamples';
+<script>
+	import {
+		linePOSTRequestSample,
+		stationPOSTRequestSample,
+		linePOSTResponseSample,
+		stationPOSTResponseSample
+	} from '../constants/codeSamples';
+	import { fade } from 'svelte/transition';
 	import Prism from 'svelte-prism';
-	let lineSampleToggle = true;
-	let test = () => {
-		console.log(lineSampleToggle)
-	}
+	let lineSampleToggle = false;
+	let stationSampleToggle = false;
 </script>
 
 {#if lineSampleToggle}
-	<div class="code-example">
-		<div class="toggle-box">
-			<h3 style="color: #272822;">Sample LINE request</h3>
-			<label class="switch">
-				<input type="checkbox" bind:checked={lineSampleToggle} on:change={test}/>
-				<span class="slider round" />
-			</label>
-		</div>
-		<div class="code-and-text" style="font-size: 0.5em;">
-			<Prism language="js" source={linePOSTRequestSample} />
-			<p style="color: #272822;">
-				Make a POST request to /line, specifying the train line in your POST body in Romaji.
-			</p>
-		</div>
-	</div>
-{:else}
 	<div class="code-example">
 		<div class="toggle-box">
 			<h3 style="color: #272822;">Sample LINE response</h3>
@@ -33,20 +21,65 @@
 			</label>
 		</div>
 		<div class="code-and-text" style="font-size: 0.5em;">
-			<Prism language="js" source={linePOSTResponseSample} style="height:300px"/>
+			<Prism language="js" source={linePOSTResponseSample} />
 			<p style="color: #272822;">
-				... and get clean, organized JSON about a train line!
+				... and get JSON about a train line. Each station object contains it's own name, line, and
+				transfer info. Use the transferInfo array to recursively call your function and change train
+				lines when necessary.
+			</p>
+		</div>
+	</div>
+{:else}
+	<div class="code-example">
+		<div class="toggle-box">
+			<h3 style="color: #272822;" transition:fade>Sample LINE request</h3>
+			<label class="switch">
+				<input type="checkbox" bind:checked={lineSampleToggle} />
+				<span class="slider round" />
+			</label>
+		</div>
+		<div class="code-and-text" style="font-size: 0.5em;" transition:fade>
+			<Prism language="js" source={linePOSTRequestSample} />
+			<p style="color: #272822;">
+				Make a POST request to /line, specifying the train line in your POST body in Romaji...
 			</p>
 		</div>
 	</div>
 {/if}
-<div class="code-example">
-	<h3 style="color: cornsilk">Sample STATION request</h3>
-	<div class="code-and-text" style="font-size: 0.5em;">
-		<p>Make a POST request to /station, specifying the station name in your POST body in Romaji.</p>
-		<Prism language="js" source={stationPOSTRequestSample} />
+{#if stationSampleToggle}
+	<div class="code-example">
+		<div class="toggle-box">
+			<h3 style="color: cornsilk;">Sample STATION response</h3>
+			<label class="switch">
+				<input type="checkbox" bind:checked={stationSampleToggle} />
+				<span class="slider round" />
+			</label>
+		</div>
+		<div class="code-and-text" style="font-size: 0.5em;">
+			<Prism language="js" source={stationPOSTResponseSample} />
+			<p style="color: cornsilk;">
+				This returns the station in question, and all train lines that pass through it, or are
+				reasonably transferable, in case the official designation is a different station.
+			</p>
+		</div>
 	</div>
-</div>
+{:else}
+	<div class="code-example">
+		<div class="toggle-box">
+			<h3 style="color: cornsilk" transition:fade>Sample STATION request</h3>
+			<label class="switch">
+				<input type="checkbox" bind:checked={stationSampleToggle} />
+				<span class="slider round" />
+			</label>
+		</div>
+		<div class="code-and-text" style="font-size: 0.5em;" transition:fade>
+			<p>
+				Make a POST request to /station, specifying the station name in your POST body in Romaji.
+			</p>
+			<Prism language="js" source={stationPOSTRequestSample} />
+		</div>
+	</div>
+{/if}
 
 <style>
 	.code-example {

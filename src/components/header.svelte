@@ -24,7 +24,7 @@
 		height: 25%;
 	}
 	h1 {
-		margin: 3%;
+		margin: 0%;
 		padding: 3%;
 		color: #272822;
         font-size: 4em;

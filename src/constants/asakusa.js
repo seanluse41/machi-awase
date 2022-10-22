@@ -3,12 +3,15 @@ export let asakusaLine =
     numberOfStations: 20,
     type: "metro",
     line: "asakusa",
+    totalTime: 35,
     stations: [
         {
             name: 'Nishi-magome',
             id: 1,
             type: 'metro',
             line: 'asakusa',
+            previousStationTime: 0,
+            nextStationTime: 2,
             transfer: false,
             transferInfo: []
         },
@@ -17,6 +20,8 @@ export let asakusaLine =
             id: 2,
             type: 'metro',
             line: 'asakusa',
+            previousStationTime: 2,
+            nextStationTime: 1,
             transfer: false,
             transferInfo: []
         },
@@ -25,6 +30,8 @@ export let asakusaLine =
             id: 3,
             type: 'metro',
             line: 'asakusa',
+            previousStationTime: 1,
+            nextStationTime: 2,
             transfer: false,
             transferInfo: []
         },
@@ -33,6 +40,8 @@ export let asakusaLine =
             id: 4,
             type: 'metro',
             line: 'asakusa',
+            previousStationTime: 2,
+            nextStationTime: 2,
             transfer: false,
             transferInfo: []
         },
@@ -41,6 +50,8 @@ export let asakusaLine =
             id: 5,
             type: 'metro',
             line: 'asakusa',
+            previousStationTime: 2,
+            nextStationTime: 2,
             transfer: true,
             transferInfo: [
                 {
@@ -56,6 +67,8 @@ export let asakusaLine =
             id: 6,
             type: 'metro',
             line: 'asakusa',
+            previousStationTime: 2,
+            nextStationTime: 3,
             transfer: false,
             transferInfo: []
         },
@@ -64,6 +77,8 @@ export let asakusaLine =
             id: 7,
             type: 'metro',
             line: 'asakusa',
+            previousStationTime: 3,
+            nextStationTime: 3,
             transfer: true,
             transferInfo: [
                 {
@@ -85,6 +100,8 @@ export let asakusaLine =
             id: 8,
             type: 'metro',
             line: 'asakusa',
+            previousStationTime: 3,
+            nextStationTime: 2,
             transfer: true,
             transferInfo: [
                 {
@@ -112,6 +129,8 @@ export let asakusaLine =
             id: 9,
             type: 'metro',
             line: 'asakusa',
+            previousStationTime: 2,
+            nextStationTime: 2,
             transfer: true,
             transferInfo: [
                 {
@@ -139,6 +158,8 @@ export let asakusaLine =
             id: 10,
             type: 'metro',
             line: 'asakusa',
+            previousStationTime: 2,
+            nextStationTime: 2,
             transfer: true,
             transferInfo: [
                 {
@@ -166,6 +187,8 @@ export let asakusaLine =
             id: 11,
             type: 'metro',
             line: 'asakusa',
+            previousStationTime: 2,
+            nextStationTime: 2,
             transfer: true,
             transferInfo: [
                 {
@@ -181,6 +204,8 @@ export let asakusaLine =
             id: 12,
             type: 'metro',
             line: 'asakusa',
+            previousStationTime: 2,
+            nextStationTime: 1,
             transfer: false,
             transferInfo: []
         },
@@ -189,6 +214,8 @@ export let asakusaLine =
             id: 13,
             type: 'metro',
             line: 'asakusa',
+            previousStationTime: 1,
+            nextStationTime: 2,
             transfer: true,
             transferInfo: [
                 {
@@ -210,6 +237,8 @@ export let asakusaLine =
             id: 14,
             type: 'metro',
             line: 'asakusa',
+            previousStationTime: 2,
+            nextStationTime: 2,
             transfer: false,
             transferInfo: [
                 {
@@ -231,6 +260,8 @@ export let asakusaLine =
             id: 15,
             type: 'metro',
             line: 'asakusa',
+            previousStationTime: 2,
+            nextStationTime: 1,
             transfer: true,
             transferInfo: [
                 {
@@ -252,6 +283,8 @@ export let asakusaLine =
             id: 16,
             type: 'metro',
             line: 'asakusa',
+            previousStationTime: 1,
+            nextStationTime: 2,
             transfer: true,
             transferInfo: [
                 {
@@ -267,6 +300,8 @@ export let asakusaLine =
             id: 17,
             type: 'metro',
             line: 'asakusa',
+            previousStationTime: 2,
+            nextStationTime: 2,
             transfer: true,
             transferInfo: [
                 {
@@ -282,6 +317,8 @@ export let asakusaLine =
             id: 18,
             type: 'metro',
             line: 'asakusa',
+            previousStationTime: 2,
+            nextStationTime: 1,
             transfer: true,
             transferInfo: [
                 {
@@ -297,6 +334,8 @@ export let asakusaLine =
             id: 19,
             type: 'metro',
             line: 'asakusa',
+            previousStationTime: 1,
+            nextStationTime: 2,
             transfer: false,
             transferInfo: []
         },
@@ -305,6 +344,8 @@ export let asakusaLine =
             id: 20,
             type: 'metro',
             line: 'asakusa',
+            previousStationTime: 2,
+            nextStationTime: 0,
             transfer: true,
             transferInfo: [
                 {

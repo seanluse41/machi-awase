@@ -2,12 +2,15 @@ export let chiyodaLine = {
     numberOfStations: 20,
     type: "metro",
     line: "chiyoda",
+    totalTime: 44,
     stations: [
         {
             name: 'Yoyogi-uehara',
             id: 1,
             type: 'metro',
             line: 'chiyoda',
+            previousStationTime: 0,
+            nextStationTime: 3,
             transfer: false,
             transferInfo: []
         },
@@ -16,6 +19,8 @@ export let chiyodaLine = {
             id: 2,
             type: 'metro',
             line: 'chiyoda',
+            previousStationTime: 3,
+            nextStationTime: 2,
             transfer: false,
             transferInfo: []
         },
@@ -24,6 +29,8 @@ export let chiyodaLine = {
             id: 3,
             type: 'metro',
             line: 'chiyoda',
+            previousStationTime: 2,
+            nextStationTime: 1,
             transfer: true,
             transferInfo: [
                 {
@@ -45,6 +52,8 @@ export let chiyodaLine = {
             id: 4,
             type: 'metro',
             line: 'chiyoda',
+            previousStationTime: 1,
+            nextStationTime: 3,
             transfer: true,
             transferInfo: [
                 {
@@ -66,6 +75,8 @@ export let chiyodaLine = {
             id: 5,
             type: 'metro',
             line: 'chiyoda',
+            previousStationTime: 3,
+            nextStationTime: 2,
             transfer: false,
             transferInfo: []
         },
@@ -74,6 +85,8 @@ export let chiyodaLine = {
             id: 6,
             type: 'metro',
             line: 'chiyoda',
+            previousStationTime: 2,
+            nextStationTime: 2,
             transfer: false,
             transferInfo: []
         },
@@ -82,6 +95,8 @@ export let chiyodaLine = {
             id: 7,
             type: 'metro',
             line: 'chiyoda',
+            previousStationTime: 2,
+            nextStationTime: 2,
             transfer: true,
             transferInfo: [
                 {
@@ -109,6 +124,8 @@ export let chiyodaLine = {
             id: 8,
             type: 'metro',
             line: 'chiyoda',
+            previousStationTime: 2,
+            nextStationTime: 2,
             transfer: true,
             transferInfo: [
                 {
@@ -130,6 +147,8 @@ export let chiyodaLine = {
             id: 9,
             type: 'metro',
             line: 'chiyoda',
+            previousStationTime: 2,
+            nextStationTime: 2,
             transfer: true,
             transferInfo: [
                 {
@@ -169,6 +188,8 @@ export let chiyodaLine = {
             id: 10,
             type: 'metro',
             line: 'chiyoda',
+            previousStationTime: 2,
+            nextStationTime: 1,
             transfer: false,
             transferInfo: []
         },
@@ -177,6 +198,8 @@ export let chiyodaLine = {
             id: 11,
             type: 'metro',
             line: 'chiyoda',
+            previousStationTime: 1,
+            nextStationTime: 3,
             transfer: true,
             transferInfo: [
                 {
@@ -210,6 +233,8 @@ export let chiyodaLine = {
             id: 12,
             type: 'metro',
             line: 'chiyoda',
+            previousStationTime: 3,
+            nextStationTime: 2,
             transfer: true,
             transferInfo: [
                 {
@@ -231,6 +256,8 @@ export let chiyodaLine = {
             id: 13,
             type: 'metro',
             line: 'chiyoda',
+            previousStationTime: 2,
+            nextStationTime: 2,
             transfer: false,
             transferInfo: []
         },
@@ -239,6 +266,8 @@ export let chiyodaLine = {
             id: 14,
             type: 'metro',
             line: 'chiyoda',
+            previousStationTime: 2,
+            nextStationTime: 2,
             transfer: false,
             transferInfo: []
         },
@@ -247,6 +276,8 @@ export let chiyodaLine = {
             id: 15,
             type: 'metro',
             line: 'chiyoda',
+            previousStationTime: 2,
+            nextStationTime: 2,
             transfer: false,
             transferInfo: []
         },
@@ -255,6 +286,8 @@ export let chiyodaLine = {
             id: 16,
             type: 'metro',
             line: 'chiyoda',
+            previousStationTime: 2,
+            nextStationTime: 2,
             transfer: true,
             transferInfo: [
                 {
@@ -276,6 +309,8 @@ export let chiyodaLine = {
             id: 17,
             type: 'metro',
             line: 'chiyoda',
+            previousStationTime: 2,
+            nextStationTime: 4,
             transfer: false,
             transferInfo: []
         },
@@ -284,6 +319,8 @@ export let chiyodaLine = {
             id: 18,
             type: 'metro',
             line: 'chiyoda',
+            previousStationTime: 4,
+            nextStationTime: 3,
             transfer: true,
             transferInfo: [
                 {
@@ -299,6 +336,8 @@ export let chiyodaLine = {
             id: 19,
             type: 'metro',
             line: 'chiyoda',
+            previousStationTime: 3,
+            nextStationTime: 4,
             transfer: false,
             transferInfo: []
         },
@@ -307,6 +346,8 @@ export let chiyodaLine = {
             id: 20,
             type: 'metro',
             line: 'chiyoda',
+            previousStationTime: 4,
+            nextStationTime: 0,
             transfer: false,
             transferInfo: []
         },

@@ -2,12 +2,15 @@ export let ginzaLine = {
     numberOfStations: 19,
     type: "metro",
     line: "ginza",
+    totalTime: 31,
     stations: [
         {
             name: 'Shibuya',
             id: 1,
             type: 'metro',
-            line: 'ginza',
+            line: 'ginza',             
+            previousStationTime: 0,
+            nextStationTime: 2,
             transfer: true,
             transferInfo: [
                 {
@@ -46,7 +49,9 @@ export let ginzaLine = {
             name: 'Omote-sando',
             id: 2,
             type: 'metro',
-            line: 'ginza',
+            line: 'ginza',             
+            previousStationTime: 2,
+            nextStationTime: 1,
             transfer: true,
             transferInfo: [
                 {
@@ -67,7 +72,9 @@ export let ginzaLine = {
             name: 'Gaienmae',
             id: 3,
             type: 'metro',
-            line: 'ginza',
+            line: 'ginza',             
+            previousStationTime: 1,
+            nextStationTime: 2,
             transfer: false,
             transferInfo: []
         },
@@ -75,7 +82,9 @@ export let ginzaLine = {
             name: 'Aoyama-itchome',
             id: 4,
             type: 'metro',
-            line: 'ginza',
+            line: 'ginza',             
+            previousStationTime: 2,
+            nextStationTime: 2,
             transfer: true,
             transferInfo: [
                 {
@@ -96,7 +105,9 @@ export let ginzaLine = {
             name: 'Akasaka-mitsuke',
             id: 5,
             type: 'metro',
-            line: 'ginza',
+            line: 'ginza',             
+            previousStationTime: 2,
+            nextStationTime: 2,
             transfer: true,
             transferInfo: [
                 {
@@ -129,7 +140,9 @@ export let ginzaLine = {
             name: 'Tameike-sanno',
             id: 6,
             type: 'metro',
-            line: 'ginza',
+            line: 'ginza',             
+            previousStationTime: 2,
+            nextStationTime: 2,
             transfer: true,
             transferInfo: [
                 {
@@ -156,7 +169,9 @@ export let ginzaLine = {
             name: 'Toranomon',
             id: 7,
             type: 'metro',
-            line: 'ginza',
+            line: 'ginza',             
+            previousStationTime: 2,
+            nextStationTime: 2,
             transfer: true,
             transferInfo: [
                 {
@@ -171,7 +186,9 @@ export let ginzaLine = {
             name: 'Shimbashi',
             id: 8,
             type: 'metro',
-            line: 'ginza',
+            line: 'ginza',             
+            previousStationTime: 2,
+            nextStationTime: 2,
             transfer: true,
             transferInfo: [
                 {
@@ -198,7 +215,9 @@ export let ginzaLine = {
             name: 'Ginza',
             id: 9,
             type: 'metro',
-            line: 'ginza',
+            line: 'ginza',             
+            previousStationTime: 2,
+            nextStationTime: 1,
             transfer: true,
             transferInfo: [
                 {
@@ -225,7 +244,9 @@ export let ginzaLine = {
             name: 'Kyobashi',
             id: 10,
             type: 'metro',
-            line: 'ginza',
+            line: 'ginza',             
+            previousStationTime: 1,
+            nextStationTime: 2,
             transfer: false,
             transferInfo: []
         },
@@ -233,7 +254,9 @@ export let ginzaLine = {
             name: 'Nihombashi',
             id: 11,
             type: 'metro',
-            line: 'ginza',
+            line: 'ginza',             
+            previousStationTime: 2,
+            nextStationTime: 2,
             transfer: true,
             transferInfo: [
                 {
@@ -254,7 +277,9 @@ export let ginzaLine = {
             name: 'Mitsukoshimae',
             id: 12,
             type: 'metro',
-            line: 'ginza',
+            line: 'ginza',             
+            previousStationTime: 2,
+            nextStationTime: 1,
             transfer: true,
             transferInfo: [
                 {
@@ -275,7 +300,9 @@ export let ginzaLine = {
             name: 'Kanda',
             id: 13,
             type: 'metro',
-            line: 'ginza',
+            line: 'ginza',             
+            previousStationTime: 1,
+            nextStationTime: 2,
             transfer: true,
             transferInfo: [
                 {
@@ -302,7 +329,9 @@ export let ginzaLine = {
             name: 'Suehirocho',
             id: 14,
             type: 'metro',
-            line: 'ginza',
+            line: 'ginza',             
+            previousStationTime: 2,
+            nextStationTime: 1,
             transfer: false,
             transferInfo: []
         },
@@ -310,7 +339,9 @@ export let ginzaLine = {
             name: 'Ueno-hirokoji',
             id: 15,
             type: 'metro',
-            line: 'ginza',
+            line: 'ginza',             
+            previousStationTime: 1,
+            nextStationTime: 2,
             transfer: true,
             transferInfo: [
                 {
@@ -331,7 +362,9 @@ export let ginzaLine = {
             name: 'Ueno',
             id: 16,
             type: 'metro',
-            line: 'ginza',
+            line: 'ginza',             
+            previousStationTime: 2,
+            nextStationTime: 2,
             transfer: true,
             transferInfo: [
                 {
@@ -358,7 +391,9 @@ export let ginzaLine = {
             name: 'Inaricho',
             id: 17,
             type: 'metro',
-            line: 'ginza',
+            line: 'ginza',             
+            previousStationTime: 2,
+            nextStationTime: 1,
             transfer: false,
             transferInfo: []
         },
@@ -366,7 +401,9 @@ export let ginzaLine = {
             name: 'Tawaramachi',
             id: 18,
             type: 'metro',
-            line: 'ginza',
+            line: 'ginza',             
+            previousStationTime: 1,
+            nextStationTime: 2,
             transfer: false,
             transferInfo: []
         },
@@ -374,7 +411,9 @@ export let ginzaLine = {
             name: 'Asakusa',
             id: 19,
             type: 'metro',
-            line: 'ginza',
+            line: 'ginza',             
+            previousStationTime: 2,
+            nextStationTime: 0,
             transfer: true,
             transferInfo: [
                 {

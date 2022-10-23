@@ -2,12 +2,15 @@ export let fukutoshinLine = {
     numberOfStations: 16,
     type: "metro",
     line: "fukutoshin",
+    totalTime: 36,
     stations: [
         {
             name: 'Wakoshi',
             id: 1,
             type: 'metro',
             line: 'fukutoshin',
+            previousStationTime: 0,
+            nextStationTime: 3,
             transfer: true,
             transferInfo: [
                 {
@@ -23,6 +26,8 @@ export let fukutoshinLine = {
             id: 2,
             type: 'metro',
             line: 'fukutoshin',
+            previousStationTime: 3,
+            nextStationTime: 2,
             transfer: true,
             transferInfo: [
                 {
@@ -38,6 +43,8 @@ export let fukutoshinLine = {
             id: 3,
             type: 'metro',
             line: 'fukutoshin',
+            previousStationTime: 2,
+            nextStationTime: 3,
             transfer: true,
             transferInfo: [
                 {
@@ -53,6 +60,8 @@ export let fukutoshinLine = {
             id: 4,
             type: 'metro',
             line: 'fukutoshin',
+            previousStationTime: 3,
+            nextStationTime: 2,
             transfer: true,
             transferInfo: [
                 {
@@ -68,6 +77,8 @@ export let fukutoshinLine = {
             id: 5,
             type: 'metro',
             line: 'fukutoshin',
+            previousStationTime: 2,
+            nextStationTime: 2,
             transfer: true,
             transferInfo: [
                 {
@@ -83,6 +94,8 @@ export let fukutoshinLine = {
             id: 6,
             type: 'metro',
             line: 'fukutoshin',
+            previousStationTime: 2,
+            nextStationTime: 2,
             transfer: true,
             transferInfo: [
                 {
@@ -98,6 +111,8 @@ export let fukutoshinLine = {
             id: 7,
             type: 'metro',
             line: 'fukutoshin',
+            previousStationTime: 2,
+            nextStationTime: 2,
             transfer: true,
             transferInfo: [
                 {
@@ -113,6 +128,8 @@ export let fukutoshinLine = {
             id: 8,
             type: 'metro',
             line: 'fukutoshin',
+            previousStationTime: 2,
+            nextStationTime: 2,
             transfer: true,
             transferInfo: [
                 {
@@ -128,6 +145,8 @@ export let fukutoshinLine = {
             id: 9,
             type: 'metro',
             line: 'fukutoshin',
+            previousStationTime: 2,
+            nextStationTime: 3,
             transfer: true,
             transferInfo: [
                 {
@@ -161,6 +180,8 @@ export let fukutoshinLine = {
             id: 10,
             type: 'metro',
             line: 'fukutoshin',
+            previousStationTime: 3,
+            nextStationTime: 2,
             transfer: false,
             transferInfo: []
         },
@@ -169,6 +190,8 @@ export let fukutoshinLine = {
             id: 11,
             type: 'metro',
             line: 'fukutoshin',
+            previousStationTime: 2,
+            nextStationTime: 2,
             transfer: false,
             transferInfo: []
         },
@@ -177,6 +200,8 @@ export let fukutoshinLine = {
             id: 12,
             type: 'metro',
             line: 'fukutoshin',
+            previousStationTime: 2,
+            nextStationTime: 3,
             transfer: true,
             transferInfo: [
                 {
@@ -192,6 +217,8 @@ export let fukutoshinLine = {
             id: 13,
             type: 'metro',
             line: 'fukutoshin',
+            previousStationTime: 3,
+            nextStationTime: 2,
             transfer: true,
             transferInfo: [
                 {
@@ -213,6 +240,8 @@ export let fukutoshinLine = {
             id: 14,
             type: 'metro',
             line: 'fukutoshin',
+            previousStationTime: 2,
+            nextStationTime: 2,
             transfer: false,
             transferInfo: []
         },
@@ -221,6 +250,8 @@ export let fukutoshinLine = {
             id: 15,
             type: 'metro',
             line: 'fukutoshin',
+            previousStationTime: 2,
+            nextStationTime: 2,
             transfer: true,
             transferInfo: [
                 {
@@ -242,6 +273,8 @@ export let fukutoshinLine = {
             id: 16,
             type: 'metro',
             line: 'fukutoshin',
+            previousStationTime: 2,
+            nextStationTime: 0,
             transfer: true,
             transferInfo: [
                 {

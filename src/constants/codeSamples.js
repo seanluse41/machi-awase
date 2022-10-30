@@ -43,15 +43,7 @@ export let linePOSTResponseSample = `
                     name: 'Ebisu',
                     id: 21
                 },
-                {
-                    type: 'train',
-                    line: 'saikyo',
-                    name: 'Ebisu',
-                    id: 9
-                }
-            ]
-        },
-       ...
+                ...
 `
 
 export let stationPOSTRequestSample = `

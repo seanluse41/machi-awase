@@ -1,12 +1,13 @@
 <script>
 	import { onMount } from 'svelte';
+	import Logo from './logo.svelte';
+	import pngLogo from '../assets/logo.png'
 
 	// Show mobile icon and display menu
 	let showMobileMenu = false;
 
 	// List of navigation items
 	const navItems = [
-		{ label: 'logo', href: '#' },
 		{ label: 'About', href: '/about' },
 		{ label: 'Get Token', href: '#' },
 		{ label: 'Github', href: 'https://github.com/seanluse41/machi-awase' },
@@ -37,6 +38,9 @@
 		<div on:click={handleMobileIconClick} class={`mobile-icon${showMobileMenu ? ' active' : ''}`}>
 			<div class="middle-line" />
 		</div>
+		<div class="logoBox">
+			<img src={pngLogo} alt='logo'/>
+		</div>
 		<ul class={`navbar-list${showMobileMenu ? ' mobile' : ''}`}>
 			{#each navItems as item}
 				<li>
@@ -53,6 +57,11 @@
 		font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
 		height: 45px;
         position: fixed;
+	}
+
+	.logoBox img {
+		display: flex;
+		max-height: 32px;
 	}
 
 	.inner {

@@ -8,6 +8,8 @@ export let hanzomonLine = {
             id: 1,
             type: 'metro',
             line: 'hanzomon',
+            previousStationTime: 0,
+            nextStationTime: 2,
             transfer: true,
             transferInfo: [
                 {
@@ -47,6 +49,8 @@ export let hanzomonLine = {
             id: 2,
             type: 'metro',
             line: 'hanzomon',
+            previousStationTime: 2,
+            nextStationTime: 2,
             transfer: true,
             transferInfo: [
                 {
@@ -68,6 +72,8 @@ export let hanzomonLine = {
             id: 3,
             type: 'metro',
             line: 'hanzomon',
+            previousStationTime: 2,
+            nextStationTime: 3,
             transfer: true,
             transferInfo: [
                 {
@@ -89,6 +95,8 @@ export let hanzomonLine = {
             id: 4,
             type: 'metro',
             line: 'hanzomon',
+            previousStationTime: 3,
+            nextStationTime: 2,
             transfer: true,
             transferInfo: [
                 {
@@ -122,6 +130,8 @@ export let hanzomonLine = {
             id: 5,
             type: 'metro',
             line: 'hanzomon',
+            previousStationTime: 2,
+            nextStationTime: 3,
             transfer: false,
             transferInfo: []
         },
@@ -130,6 +140,8 @@ export let hanzomonLine = {
             id: 6,
             type: 'metro',
             line: 'hanzomon',
+            previousStationTime: 3,
+            nextStationTime: 1,
             transfer: true,
             transferInfo: [
                 {
@@ -151,6 +163,8 @@ export let hanzomonLine = {
             id: 7,
             type: 'metro',
             line: 'hanzomon',
+            previousStationTime: 1,
+            nextStationTime: 3,
             transfer: true,
             transferInfo: [
                 {
@@ -172,6 +186,8 @@ export let hanzomonLine = {
             id: 8,
             type: 'metro',
             line: 'hanzomon',
+            previousStationTime: 3,
+            nextStationTime: 2,
             transfer: true,
             transferInfo: [
                 {
@@ -205,6 +221,8 @@ export let hanzomonLine = {
             id: 9,
             type: 'metro',
             line: 'hanzomon',
+            previousStationTime: 2,
+            nextStationTime: 3,
             transfer: true,
             transferInfo: [
                 {
@@ -226,6 +244,8 @@ export let hanzomonLine = {
             id: 10,
             type: 'metro',
             line: 'hanzomon',
+            previousStationTime: 3,
+            nextStationTime: 3,
             transfer: true,
             transferInfo: [
                 {
@@ -247,6 +267,8 @@ export let hanzomonLine = {
             id: 11,
             type: 'metro',
             line: 'hanzomon',
+            previousStationTime: 3,
+            nextStationTime: 3,
             transfer: true,
             transferInfo: [
                 {
@@ -262,6 +284,8 @@ export let hanzomonLine = {
             id: 12,
             type: 'metro',
             line: 'hanzomon',
+            previousStationTime: 3,
+            nextStationTime: 2,
             transfer: true,
             transferInfo: [
                 {
@@ -277,6 +301,8 @@ export let hanzomonLine = {
             id: 13,
             type: 'metro',
             line: 'hanzomon',
+            previousStationTime: 2,
+            nextStationTime: 3,
             transfer: true,
             transferInfo: [
                 {
@@ -292,6 +318,8 @@ export let hanzomonLine = {
             id: 14,
             type: 'metro',
             line: 'hanzomon',
+            previousStationTime: 3,
+            nextStationTime: 0,
             transfer: true,
             transferInfo: [
                 {
@@ -301,6 +329,6 @@ export let hanzomonLine = {
                     id: 20
                 }
             ]
-        },
+        }
     ]
 };

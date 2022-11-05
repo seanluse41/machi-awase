@@ -411,7 +411,7 @@ export let ginzaLine = {
             name: 'Asakusa',
             id: 19,
             type: 'metro',
-            line: 'ginza',             
+            line: 'ginza',
             previousStationTime: 2,
             nextStationTime: 0,
             transfer: true,

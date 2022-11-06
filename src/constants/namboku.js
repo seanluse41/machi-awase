@@ -8,6 +8,8 @@ export let nambokuLine = {
             id: 1,
             type: 'metro',
             line: 'namboku',
+            previousStationTime: 0,
+            nextStationTime: 2,
             transfer: true,
             transferInfo: [
                 {
@@ -29,6 +31,8 @@ export let nambokuLine = {
             id: 2,
             type: 'metro',
             line: 'namboku',
+            previousStationTime: 2,
+            nextStationTime: 2,
             transfer: true,
             transferInfo: [
                 {
@@ -44,6 +48,8 @@ export let nambokuLine = {
             id: 3,
             type: 'metro',
             line: 'namboku',
+            previousStationTime: 2,
+            nextStationTime: 3,
             transfer: true,
             transferInfo: [
                 {
@@ -59,6 +65,8 @@ export let nambokuLine = {
             id: 4,
             type: 'metro',
             line: 'namboku',
+            previousStationTime: 3,
+            nextStationTime: 2,
             transfer: true,
             transferInfo: [
                 {
@@ -74,6 +82,8 @@ export let nambokuLine = {
             id: 5,
             type: 'metro',
             line: 'namboku',
+            previousStationTime: 2,
+            nextStationTime: 2,
             transfer: false,
             transferInfo: []
         },
@@ -82,6 +92,8 @@ export let nambokuLine = {
             id: 6,
             type: 'metro',
             line: 'namboku',
+            previousStationTime: 2,
+            nextStationTime: 2,
             transfer: true,
             transferInfo: [
                 {
@@ -109,6 +121,8 @@ export let nambokuLine = {
             id: 7,
             type: 'metro',
             line: 'namboku',
+            previousStationTime: 2,
+            nextStationTime: 2,
             transfer: true,
             transferInfo: [
                 {
@@ -142,6 +156,8 @@ export let nambokuLine = {
             id: 8,
             type: 'metro',
             line: 'namboku',
+            previousStationTime: 2,
+            nextStationTime: 2,
             transfer: true,
             transferInfo: [
                 {
@@ -169,6 +185,8 @@ export let nambokuLine = {
             id: 9,
             type: 'metro',
             line: 'namboku',
+            previousStationTime: 2,
+            nextStationTime: 2,
             transfer: true,
             transferInfo: [
                 {
@@ -197,6 +215,8 @@ export let nambokuLine = {
             id: 10,
             type: 'metro',
             line: 'namboku',
+            previousStationTime: 2,
+            nextStationTime: 2,
             transfer: true,
             transferInfo: [
                 {
@@ -230,6 +250,8 @@ export let nambokuLine = {
             id: 11,
             type: 'metro',
             line: 'namboku',
+            previousStationTime: 2,
+            nextStationTime: 3,
             transfer: true,
             transferInfo: [
                 {
@@ -257,6 +279,8 @@ export let nambokuLine = {
             id: 12,
             type: 'metro',
             line: 'namboku',
+            previousStationTime: 3,
+            nextStationTime: 2,
             transfer: false,
             transferInfo: []
         },
@@ -265,6 +289,8 @@ export let nambokuLine = {
             id: 13,
             type: 'metro',
             line: 'namboku',
+            previousStationTime: 2,
+            nextStationTime: 2,
             transfer: false,
             transferInfo: []
         },
@@ -273,6 +299,8 @@ export let nambokuLine = {
             id: 14,
             type: 'metro',
             line: 'namboku',
+            previousStationTime: 2,
+            nextStationTime: 2,
             transfer: true,
             transferInfo: [
                 {
@@ -287,6 +315,8 @@ export let nambokuLine = {
             id: 15,
             type: 'metro',
             line: 'namboku',
+            previousStationTime: 2,
+            nextStationTime: 2,
             transfer: false,
             transferInfo: []
         },
@@ -295,6 +325,8 @@ export let nambokuLine = {
             id: 16,
             type: 'metro',
             line: 'namboku',
+            previousStationTime: 2,
+            nextStationTime: 3,
             transfer: true,
             transferInfo: [
                 {
@@ -309,6 +341,8 @@ export let nambokuLine = {
             id: 17,
             type: 'metro',
             line: 'namboku',
+            previousStationTime: 3,
+            nextStationTime: 2,
             transfer: false,
             transferInfo: []
         },
@@ -317,6 +351,8 @@ export let nambokuLine = {
             id: 18,
             type: 'metro',
             line: 'namboku',
+            previousStationTime: 2,
+            nextStationTime: 2,
             transfer: false,
             transferInfo: []
         },
@@ -325,6 +361,8 @@ export let nambokuLine = {
             id: 19,
             type: 'metro',
             line: 'namboku',
+            previousStationTime: 2,
+            nextStationTime: 0,
             transfer: false,
             transferInfo: []
         },

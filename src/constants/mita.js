@@ -8,6 +8,8 @@ export let mitaLine = {
             id: 1,
             type: 'metro',
             line: 'mita',
+            previousStationTime: 0,
+            nextStationTime: 2,
             transfer: true,
             transferInfo: [
                 {
@@ -29,6 +31,8 @@ export let mitaLine = {
             id: 2,
             type: 'metro',
             line: 'mita',
+            previousStationTime: 2,
+            nextStationTime: 2,
             transfer: true,
             transferInfo: [
                 {
@@ -44,6 +48,8 @@ export let mitaLine = {
             id: 3,
             type: 'metro',
             line: 'mita',
+            previousStationTime: 2,
+            nextStationTime: 3,
             transfer: true,
             transferInfo: [
                 {
@@ -59,6 +65,8 @@ export let mitaLine = {
             id: 4,
             type: 'metro',
             line: 'mita',
+            previousStationTime: 3,
+            nextStationTime: 2,
             transfer: true,
             transferInfo: [
                 {
@@ -86,6 +94,8 @@ export let mitaLine = {
             id: 5,
             type: 'metro',
             line: 'mita',
+            previousStationTime: 2,
+            nextStationTime: 1,
             transfer: false,
             transferInfo: []
         },
@@ -94,6 +104,8 @@ export let mitaLine = {
             id: 6,
             type: 'metro',
             line: 'mita',
+            previousStationTime: 1,
+            nextStationTime: 2,
             transfer: false,
             transferInfo: []
         },
@@ -102,6 +114,8 @@ export let mitaLine = {
             id: 7,
             type: 'metro',
             line: 'mita',
+            previousStationTime: 2,
+            nextStationTime: 2,
             transfer: false,
             transferInfo: []
         },
@@ -110,6 +124,8 @@ export let mitaLine = {
             id: 8,
             type: 'metro',
             line: 'mita',
+            previousStationTime: 2,
+            nextStationTime: 2,
             transfer: true,
             transferInfo: [
                 {
@@ -149,6 +165,8 @@ export let mitaLine = {
             id: 9,
             type: 'metro',
             line: 'mita',
+            previousStationTime: 2,
+            nextStationTime: 3,
             transfer: true,
             transferInfo: [
                 {
@@ -182,6 +200,8 @@ export let mitaLine = {
             id: 10,
             type: 'metro',
             line: 'mita',
+            previousStationTime: 3,
+            nextStationTime: 2,
             transfer: true,
             transferInfo: [
                 {
@@ -203,6 +223,8 @@ export let mitaLine = {
             id: 11,
             type: 'metro',
             line: 'mita',
+            previousStationTime: 2,
+            nextStationTime: 2,
             transfer: true,
             transferInfo: [
                 {
@@ -218,6 +240,8 @@ export let mitaLine = {
             id: 12,
             type: 'metro',
             line: 'mita',
+            previousStationTime: 2,
+            nextStationTime: 2,
             transfer: true,
             transferInfo: [
                 {
@@ -245,6 +269,8 @@ export let mitaLine = {
             id: 13,
             type: 'metro',
             line: 'mita',
+            previousStationTime: 2,
+            nextStationTime: 2,
             transfer: false,
             transferInfo: []
         },
@@ -253,6 +279,8 @@ export let mitaLine = {
             id: 14,
             type: 'metro',
             line: 'mita',
+            previousStationTime: 2,
+            nextStationTime: 2,
             transfer: false,
             transferInfo: []
         },
@@ -261,6 +289,8 @@ export let mitaLine = {
             id: 15,
             type: 'metro',
             line: 'mita',
+            previousStationTime: 2,
+            nextStationTime: 2,
             transfer: true,
             transferInfo: [
                 {
@@ -275,6 +305,8 @@ export let mitaLine = {
             id: 16,
             type: 'metro',
             line: 'mita',
+            previousStationTime: 2,
+            nextStationTime: 2,
             transfer: false,
             transferInfo: []
         },
@@ -283,6 +315,8 @@ export let mitaLine = {
             id: 17,
             type: 'metro',
             line: 'mita',
+            previousStationTime: 2,
+            nextStationTime: 2,
             transfer: true,
             transferInfo: [
                 {
@@ -297,6 +331,8 @@ export let mitaLine = {
             id: 18,
             type: 'metro',
             line: 'mita',
+            previousStationTime: 2,
+            nextStationTime: 2,
             transfer: false,
             transferInfo: []
         },
@@ -305,6 +341,8 @@ export let mitaLine = {
             id: 19,
             type: 'metro',
             line: 'mita',
+            previousStationTime: 2,
+            nextStationTime: 1,
             transfer: false,
             transferInfo: []
         },
@@ -313,6 +351,8 @@ export let mitaLine = {
             id: 20,
             type: 'metro',
             line: 'mita',
+            previousStationTime: 1,
+            nextStationTime: 2,
             transfer: false,
             transferInfo: []
         },
@@ -321,6 +361,8 @@ export let mitaLine = {
             id: 21,
             type: 'metro',
             line: 'mita',
+            previousStationTime: 2,
+            nextStationTime: 2,
             transfer: false,
             transferInfo: []
         },
@@ -329,6 +371,8 @@ export let mitaLine = {
             id: 22,
             type: 'metro',
             line: 'mita',
+            previousStationTime: 2,
+            nextStationTime: 2,
             transfer: false,
             transferInfo: []
         },
@@ -337,6 +381,8 @@ export let mitaLine = {
             id: 23,
             type: 'metro',
             line: 'mita',
+            previousStationTime: 2,
+            nextStationTime: 2,
             transfer: false,
             transferInfo: []
         },
@@ -345,6 +391,8 @@ export let mitaLine = {
             id: 24,
             type: 'metro',
             line: 'mita',
+            previousStationTime: 2,
+            nextStationTime: 2,
             transfer: false,
             transferInfo: []
         },
@@ -353,6 +401,8 @@ export let mitaLine = {
             id: 25,
             type: 'metro',
             line: 'mita',
+            previousStationTime: 2,
+            nextStationTime: 2,
             transfer: false,
             transferInfo: []
         },
@@ -361,6 +411,8 @@ export let mitaLine = {
             id: 26,
             type: 'metro',
             line: 'mita',
+            previousStationTime: 2,
+            nextStationTime: 2,
             transfer: false,
             transferInfo: []
         },
@@ -369,6 +421,8 @@ export let mitaLine = {
             id: 27,
             type: 'metro',
             line: 'mita',
+            previousStationTime: 2,
+            nextStationTime: 0,
             transfer: false,
             transferInfo: []
         },

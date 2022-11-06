@@ -8,6 +8,8 @@ export let yurakuchoLine = {
             id: 1,
             type: 'metro',
             line: 'yurakucho',
+            previousStationTime: 0,
+            nextStationTime: 3,
             transfer: true,
             transferInfo: [
                 {
@@ -23,6 +25,8 @@ export let yurakuchoLine = {
             id: 2,
             type: 'metro',
             line: 'yurakucho',
+            previousStationTime: 3,
+            nextStationTime: 2,
             transfer: true,
             transferInfo: [
                 {
@@ -38,6 +42,8 @@ export let yurakuchoLine = {
             id: 3,
             type: 'metro',
             line: 'yurakucho',
+            previousStationTime: 2,
+            nextStationTime: 3,
             transfer: true,
             transferInfo: [
                 {
@@ -53,6 +59,8 @@ export let yurakuchoLine = {
             id: 4,
             type: 'metro',
             line: 'yurakucho',
+            previousStationTime: 3,
+            nextStationTime: 2,
             transfer: true,
             transferInfo: [
                 {
@@ -68,6 +76,8 @@ export let yurakuchoLine = {
             id: 5,
             type: 'metro',
             line: 'yurakucho',
+            previousStationTime: 2,
+            nextStationTime: 3,
             transfer: true,
             transferInfo: [
                 {
@@ -83,6 +93,8 @@ export let yurakuchoLine = {
             id: 6,
             type: 'metro',
             line: 'yurakucho',
+            previousStationTime: 3,
+            nextStationTime: 2,
             transfer: true,
             transferInfo: [
                 {
@@ -98,6 +110,8 @@ export let yurakuchoLine = {
             id: 7,
             type: 'metro',
             line: 'yurakucho',
+            previousStationTime: 2,
+            nextStationTime: 2,
             transfer: true,
             transferInfo: [
                 {
@@ -113,6 +127,8 @@ export let yurakuchoLine = {
             id: 8,
             type: 'metro',
             line: 'yurakucho',
+            previousStationTime: 2,
+            nextStationTime: 2,
             transfer: true,
             transferInfo: [
                 {
@@ -128,6 +144,8 @@ export let yurakuchoLine = {
             id: 9,
             type: 'metro',
             line: 'yurakucho',
+            previousStationTime: 2,
+            nextStationTime: 2,
             transfer: true,
             transferInfo: [
                 {
@@ -161,6 +179,8 @@ export let yurakuchoLine = {
             id: 10,
             type: 'metro',
             line: 'yurakucho',
+            previousStationTime: 2,
+            nextStationTime: 2,
             transfer: false,
             transferInfo: []
         },
@@ -169,6 +189,8 @@ export let yurakuchoLine = {
             id: 11,
             type: 'metro',
             line: 'yurakucho',
+            previousStationTime: 2,
+            nextStationTime: 2,
             transfer: false,
             transferInfo: []
         },
@@ -177,6 +199,8 @@ export let yurakuchoLine = {
             id: 12,
             type: 'metro',
             line: 'yurakucho',
+            previousStationTime: 2,
+            nextStationTime: 3,
             transfer: false,
             transferInfo: []
         },
@@ -185,6 +209,8 @@ export let yurakuchoLine = {
             id: 13,
             type: 'metro',
             line: 'yurakucho',
+            previousStationTime: 3,
+            nextStationTime: 2,
             transfer: true,
             transferInfo: [
                 {
@@ -218,6 +244,8 @@ export let yurakuchoLine = {
             id: 14,
             type: 'metro',
             line: 'yurakucho',
+            previousStationTime: 2,
+            nextStationTime: 2,
             transfer: true,
             transferInfo: [
                 {
@@ -246,6 +274,8 @@ export let yurakuchoLine = {
             id: 15,
             type: 'metro',
             line: 'yurakucho',
+            previousStationTime: 2,
+            nextStationTime: 2,
             transfer: false,
             transferInfo: []
         },
@@ -254,6 +284,8 @@ export let yurakuchoLine = {
             id: 16,
             type: 'metro',
             line: 'yurakucho',
+            previousStationTime: 2,
+            nextStationTime: 2,
             transfer: true,
             transferInfo: [
                 {
@@ -287,6 +319,8 @@ export let yurakuchoLine = {
             id: 17,
             type: 'metro',
             line: 'yurakucho',
+            previousStationTime: 2,
+            nextStationTime: 2,
             transfer: false,
             transferInfo: []
         },
@@ -295,6 +329,8 @@ export let yurakuchoLine = {
             id: 18,
             type: 'metro',
             line: 'yurakucho',
+            previousStationTime: 2,
+            nextStationTime: 1,
             transfer: true,
             transferInfo: [
                 {
@@ -334,6 +370,8 @@ export let yurakuchoLine = {
             id: 19,
             type: 'metro',
             line: 'yurakucho',
+            previousStationTime: 1,
+            nextStationTime: 2,
             transfer: true,
             transferInfo: [
                 {
@@ -361,6 +399,8 @@ export let yurakuchoLine = {
             id: 20,
             type: 'metro',
             line: 'yurakucho',
+            previousStationTime: 2,
+            nextStationTime: 2,
             transfer: true,
             transferInfo: [
                 {
@@ -376,6 +416,8 @@ export let yurakuchoLine = {
             id: 21,
             type: 'metro',
             line: 'yurakucho',
+            previousStationTime: 2,
+            nextStationTime: 2,
             transfer: true,
             transferInfo: [
                 {
@@ -391,6 +433,8 @@ export let yurakuchoLine = {
             id: 22,
             type: 'metro',
             line: 'yurakucho',
+            previousStationTime: 2,
+            nextStationTime: 2,
             transfer: false,
             transferInfo: []
         },
@@ -399,6 +443,8 @@ export let yurakuchoLine = {
             id: 23,
             type: 'metro',
             line: 'yurakucho',
+            previousStationTime: 2,
+            nextStationTime: 3,
             transfer: false,
             transferInfo: []
         },
@@ -407,6 +453,8 @@ export let yurakuchoLine = {
             id: 24,
             type: 'metro',
             line: 'yurakucho',
+            previousStationTime: 3,
+            nextStationTime: 0,
             transfer: false,
             transferInfo: []
         }

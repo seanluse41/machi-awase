@@ -8,6 +8,8 @@ export let tozaiLine = {
             id: 1,
             type: 'metro',
             line: 'tozai',
+            previousStationTime: 0,
+            nextStationTime: 3,
             transfer: true,
             transferInfo: [
                 {
@@ -29,6 +31,8 @@ export let tozaiLine = {
             id: 2,
             type: 'metro',
             line: 'tozai',
+            previousStationTime: 3,
+            nextStationTime: 3,
             transfer: false,
             transferInfo: []
         },
@@ -37,6 +41,8 @@ export let tozaiLine = {
             id: 3,
             type: 'metro',
             line: 'tozai',
+            previousStationTime: 3,
+            nextStationTime: 3,
             transfer: true,
             transferInfo: [
                 {
@@ -52,6 +58,8 @@ export let tozaiLine = {
             id: 4,
             type: 'metro',
             line: 'tozai',
+            previousStationTime: 3,
+            nextStationTime: 2,
             transfer: false,
             transferInfo: []
         },
@@ -60,6 +68,8 @@ export let tozaiLine = {
             id: 5,
             type: 'metro',
             line: 'tozai',
+            previousStationTime: 2,
+            nextStationTime: 3,
             transfer: false,
             transferInfo: []
         },
@@ -68,6 +78,8 @@ export let tozaiLine = {
             id: 6,
             type: 'metro',
             line: 'tozai',
+            previousStationTime: 3,
+            nextStationTime: 1,
             transfer: true,
             transferInfo: [
                 {
@@ -100,12 +112,14 @@ export let tozaiLine = {
             name: 'Kudanshita',
             id: 7,
             type: 'metro',
-            line: 'hanzomon',
+            line: 'tozai',
+            previousStationTime: 1,
+            nextStationTime: 2,
             transfer: true,
             transferInfo: [
                 {
                     type: 'metro',
-                    line: 'tozai',
+                    line: 'hanzomon',
                     name: 'Kudashita',
                     id: 6
                 },
@@ -122,6 +136,8 @@ export let tozaiLine = {
             id: 8,
             type: 'metro',
             line: 'tozai',
+            previousStationTime: 2,
+            nextStationTime: 2,
             transfer: false,
             transferInfo: []
         },
@@ -130,6 +146,8 @@ export let tozaiLine = {
             id: 9,
             type: 'metro',
             line: 'tozai',
+            previousStationTime: 2,
+            nextStationTime: 2,
             transfer: true,
             transferInfo: [
                 {
@@ -163,6 +181,8 @@ export let tozaiLine = {
             id: 10,
             type: 'metro',
             line: 'tozai',
+            previousStationTime: 2,
+            nextStationTime: 1,
             transfer: true,
             transferInfo: [
                 {
@@ -184,6 +204,8 @@ export let tozaiLine = {
             id: 11,
             type: 'metro',
             line: 'tozai',
+            previousStationTime: 1,
+            nextStationTime: 2,
             transfer: true,
             transferInfo: [
                 {
@@ -199,6 +221,8 @@ export let tozaiLine = {
             id: 12,
             type: 'metro',
             line: 'tozai',
+            previousStationTime: 2,
+            nextStationTime: 2,
             transfer: true,
             transferInfo: [
                 {
@@ -214,6 +238,8 @@ export let tozaiLine = {
             id: 13,
             type: 'metro',
             line: 'tozai',
+            previousStationTime: 2,
+            nextStationTime: 2,
             transfer: false,
             transferInfo: []
         },
@@ -222,6 +248,8 @@ export let tozaiLine = {
             id: 14,
             type: 'metro',
             line: 'tozai',
+            previousStationTime: 2,
+            nextStationTime: 3,
             transfer: false,
             transferInfo: []
         },
@@ -230,6 +258,8 @@ export let tozaiLine = {
             id: 15,
             type: 'metro',
             line: 'tozai',
+            previousStationTime: 3,
+            nextStationTime: 3,
             transfer: false,
             transferInfo: []
         },
@@ -238,6 +268,8 @@ export let tozaiLine = {
             id: 16,
             type: 'metro',
             line: 'tozai',
+            previousStationTime: 3,
+            nextStationTime: 2,
             transfer: false,
             transferInfo: []
         },
@@ -246,6 +278,8 @@ export let tozaiLine = {
             id: 17,
             type: 'metro',
             line: 'tozai',
+            previousStationTime: 2,
+            nextStationTime: 2,
             transfer: false,
             transferInfo: []
         },
@@ -254,6 +288,8 @@ export let tozaiLine = {
             id: 18,
             type: 'metro',
             line: 'tozai',
+            previousStationTime: 2,
+            nextStationTime: 2,
             transfer: false,
             transferInfo: []
         },
@@ -262,6 +298,8 @@ export let tozaiLine = {
             id: 19,
             type: 'metro',
             line: 'tozai',
+            previousStationTime: 2,
+            nextStationTime: 2,
             transfer: false,
             transferInfo: []
         },
@@ -270,6 +308,8 @@ export let tozaiLine = {
             id: 20,
             type: 'metro',
             line: 'tozai',
+            previousStationTime: 2,
+            nextStationTime: 2,
             transfer: false,
             transferInfo: []
         },
@@ -278,6 +318,8 @@ export let tozaiLine = {
             id: 21,
             type: 'metro',
             line: 'tozai',
+            previousStationTime: 2,
+            nextStationTime: 3,
             transfer: false,
             transferInfo: []
         },
@@ -286,6 +328,8 @@ export let tozaiLine = {
             id: 22,
             type: 'metro',
             line: 'tozai',
+            previousStationTime: 3,
+            nextStationTime: 3,
             transfer: false,
             transferInfo: []
         },
@@ -294,6 +338,8 @@ export let tozaiLine = {
             id: 23,
             type: 'metro',
             line: 'tozai',
+            previousStationTime: 3,
+            nextStationTime: 0,
             transfer: true,
             transferInfo: [
                 {

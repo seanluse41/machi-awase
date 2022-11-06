@@ -8,6 +8,8 @@ export let shinjukuLine = {
             id: 1,
             type: 'metro',
             line: 'shinjuku',
+            previousStationTime: 0,
+            nextStationTime: 1,
             transfer: true,
             transferInfo: [
                 {
@@ -53,6 +55,8 @@ export let shinjukuLine = {
             id: 2,
             type: 'metro',
             line: 'shinjuku',
+            previousStationTime: 1,
+            nextStationTime: 2,
             transfer: true,
             transferInfo: [
                 {
@@ -74,6 +78,8 @@ export let shinjukuLine = {
             id: 3,
             type: 'metro',
             line: 'shinjuku',
+            previousStationTime: 2,
+            nextStationTime: 2,
             transfer: false,
             transferInfo: []
         },
@@ -82,6 +88,8 @@ export let shinjukuLine = {
             id: 4,
             type: 'metro',
             line: 'shinjuku',
+            previousStationTime: 2,
+            nextStationTime: 3,
             transfer: true,
             transferInfo: [
                 {
@@ -110,6 +118,8 @@ export let shinjukuLine = {
             id: 5,
             type: 'metro',
             line: 'shinjuku',
+            previousStationTime: 3,
+            nextStationTime: 1,
             transfer: true,
             transferInfo: [
                 {
@@ -131,6 +141,8 @@ export let shinjukuLine = {
             id: 6,
             type: 'metro',
             line: 'shinjuku',
+            previousStationTime: 1,
+            nextStationTime: 2,
             transfer: true,
             transferInfo: [
                 {
@@ -152,6 +164,8 @@ export let shinjukuLine = {
             id: 7,
             type: 'metro',
             line: 'shinjuku',
+            previousStationTime: 2,
+            nextStationTime: 2,
             transfer: true,
             transferInfo: [
                 {
@@ -173,6 +187,8 @@ export let shinjukuLine = {
             id: 8,
             type: 'metro',
             line: 'shinjuku',
+            previousStationTime: 2,
+            nextStationTime: 1,
             transfer: true,
             transferInfo: [
                 {
@@ -206,6 +222,8 @@ export let shinjukuLine = {
             id: 9,
             type: 'metro',
             line: 'shinjuku',
+            previousStationTime: 1,
+            nextStationTime: 2,
             transfer: true,
             transferInfo: [
                 {
@@ -227,6 +245,8 @@ export let shinjukuLine = {
             id: 10,
             type: 'metro',
             line: 'shinjuku',
+            previousStationTime: 2,
+            nextStationTime: 1,
             transfer: false,
             transferInfo: []
         },
@@ -235,6 +255,8 @@ export let shinjukuLine = {
             id: 11,
             type: 'metro',
             line: 'shinjuku',
+            previousStationTime: 1,
+            nextStationTime: 2,
             transfer: true,
             transferInfo: [
                 {
@@ -250,6 +272,8 @@ export let shinjukuLine = {
             id: 12,
             type: 'metro',
             line: 'shinjuku',
+            previousStationTime: 2,
+            nextStationTime: 2,
             transfer: false,
             transferInfo: []
         },
@@ -258,6 +282,8 @@ export let shinjukuLine = {
             id: 13,
             type: 'metro',
             line: 'shinjuku',
+            previousStationTime: 2,
+            nextStationTime: 1,
             transfer: true,
             transferInfo: [
                 {
@@ -273,6 +299,8 @@ export let shinjukuLine = {
             id: 14,
             type: 'metro',
             line: 'shinjuku',
+            previousStationTime: 1,
+            nextStationTime: 2,
             transfer: false,
             transferInfo: []
         },
@@ -281,6 +309,8 @@ export let shinjukuLine = {
             id: 15,
             type: 'metro',
             line: 'shinjuku',
+            previousStationTime: 2,
+            nextStationTime: 2,
             transfer: false,
             transferInfo: []
         },
@@ -289,6 +319,8 @@ export let shinjukuLine = {
             id: 16,
             type: 'metro',
             line: 'shinjuku',
+            previousStationTime: 2,
+            nextStationTime: 3,
             transfer: false,
             transferInfo: []
         },
@@ -297,6 +329,8 @@ export let shinjukuLine = {
             id: 17,
             type: 'metro',
             line: 'shinjuku',
+            previousStationTime: 3,
+            nextStationTime: 2,
             transfer: false,
             transferInfo: []
         },
@@ -305,6 +339,8 @@ export let shinjukuLine = {
             id: 18,
             type: 'metro',
             line: 'shinjuku',
+            previousStationTime: 2,
+            nextStationTime: 3,
             transfer: false,
             transferInfo: []
         },
@@ -313,6 +349,8 @@ export let shinjukuLine = {
             id: 19,
             type: 'metro',
             line: 'shinjuku',
+            previousStationTime: 3,
+            nextStationTime: 2,
             transfer: false,
             transferInfo: []
         },
@@ -321,6 +359,8 @@ export let shinjukuLine = {
             id: 20,
             type: 'metro',
             line: 'shinjuku',
+            previousStationTime: 2,
+            nextStationTime: 4,
             transfer: false,
             transferInfo: []
         },
@@ -329,6 +369,8 @@ export let shinjukuLine = {
             id: 21,
             type: 'metro',
             line: 'shinjuku',
+            previousStationTime: 4,
+            nextStationTime: 0,
             transfer: true,
             transferInfo: [
                 {
